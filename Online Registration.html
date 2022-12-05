@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title></title>
+    <body>
+        <style>
+            .header{
+                border:1px solid black;
+                height:200px;
+                width:98%;
+                font-size:25px;
+                border-radius:8px;
+                box-shadow:10px 10px 7px rgba(0, 0, 0, 0.86);
+                background-image:linear-gradient(#cc2b5e,#753a88);
+                text-align: center;
+                padding-inline: 10px;
+                
+            }
+            h2{
+                font-size:40px;
+
+            }
+            
+            .link{
+                border:1px solid black;
+                height:600px;
+                width:30%;
+                float:left;
+                margin-top:2px;
+                font-size:35px;
+                text-align:left;
+                margin-bottom:3px;
+                border-radius:8px;
+                background-image:linear-gradient(#cc2b5e,#753a88);
+                box-shadow:10px 10px 7px rgba(0, 0, 0, 0.86)
+
+                
+                
+                
+
+            }
+            .ink{
+                padding-left: 20%;
+                
+            }
+            p{
+                padding-top: 8px;
+             }
+
+            .form{
+                border:1px solid black;
+                height:600px;
+                width:62%;
+                float:left;
+                margin-top:2px;
+                margin-left:7%;
+                font-size:25px;
+                text-align: left;
+                background-image:linear-gradient(#cc2b5e,#753a88);
+                box-shadow: 15px 13px 7px rgba(0, 0, 0, 0.86) ;
+                border-radius: 8px;
+                }
+            label{
+                display:inline-block;
+                width: 170px;
+                padding-left:30%;
+                padding-top: 15px;
+             }
+            .button1{
+                padding-left:55%;
+                text-align: center;
+                font-size:15px;
+                padding:8px 8px;
+                cursor:pointer;
+                color:white;
+                border:none;
+                border-radius: 8px;
+                background-color: black;
+            
+                
+
+            }
+            .button2{
+                padding-left:55%;
+                text-align: center;
+                font-size:15px;
+                padding:8px 8px;
+                cursor:pointer;
+                color:white;
+                border:none;
+                border-radius: 8px;
+                background-color: black;
+
+            }
+            .button1:hover{background-image:linear-gradient(#cc2b5e,#753a88);}
+        .button1:active{
+            box-shadow: 0 5px #666;
+            transform: translateY(4x);
+        }
+        .button2:hover{
+            background-image:linear-gradient(#cc2b5e,#753a88);
+            
+        }
+        .button2:active{
+            transform: translateY(4x);
+            box-shadow: 0 5px #666;
+        }
+            body{
+                background-image:linear-gradient(#cc2b5e,#753a88);
+                box-shadow:8px 8px 9px rgba(0, 0, 0, 0.86);
+            }
+        
+        </style>
+        <div class="header">
+        <h1>Online Examination</h1>
+        <h2>Registration</h2>
+        </div>
+        <div class="link">
+            <div class="ink">
+                <ul>
+       <li> <p><a href ="register.html">Home</a></p></li>
+       <li> <p> <a href="examination rule.html"></i>User</a></p></li>
+       <li> <p><a href="Subjective.html">Material</a></p></li>
+       <li>  <p><a href="Objective.html"></i>Graduation</a></p></li>
+       <li> <p> <a href="result.html">Alumini</a></p></li>
+       <li> <p> <a href="schedule.html">Notifications</a></p></li>
+       <li><p> <a href="logout.html">Downloads</a></p></li>
+         </ul>
+            </div>
+        </div>
+        <div class="form">
+            <form>
+                <label>First Name:</label><input type="text" placeholder="First Name" autofocus required /><br><br>
+                <label>Last Name:</label><input type="text" placeholder="Last Name" autofocus required /><br/><br/>
+                <label>E-mail:</label><input type="text" placeholder="E-mail" autofocus required /><br/><br/>
+                <label>Mobile Number:</label><input type="number" placeholder="Mobile Number" autofocus required /><br/><br/>
+                <label  for="course">Course:</label>
+                    <select id="course">
+                        <optgroup label="B-Tech">
+                            <option value="B-Tech Cse">B-Tech Cse</option>
+                            <option value="B-Tech Mechanical">B-Tech Mechanical</option>
+                            <option value="B-Tech Ece">B-Tech Ece</option>
+                            <option value="B-Tech Civil">B-Tech Civil</option>
+                        </optgroup>
+                        <option>BCA</option>
+                        <option>MBA</option>
+                        <option>BBA</option>
+                        <option>BA</option>
+                        <option>B.Com</option>
+                        <option>Bsc</option>
+                    </select><br/><br/>
+                <label>Password:</label><input type="text" placeholder="Password" autofocus required /><br/><br/>
+                <label>Confirm Password:</label><input type="text" placeholder="Confirm Password" autofocus required /><br/><br/>
+                &nbsp;   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;   &nbsp;  &nbsp; <label><input type="reset" value="Reset" class="button1" />&nbsp;&nbsp;
+                <input type="button" value ="Register" class="button2"/></label>
+            </form>
+        </div>
+    
+</body>
+</html>
